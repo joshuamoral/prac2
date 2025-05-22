@@ -53,7 +53,7 @@ class employeecontroller extends Controller
                 'midname' => 'required|max:255|string', //<!--integer to string -->
                 'age' => 'required|integer',
                 'address' => 'required|max:255|string',
-                'zip' => 'required|number',
+                'zip' => 'required|integer',
 
             ]);
 
