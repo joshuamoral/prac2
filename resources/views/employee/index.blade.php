@@ -51,7 +51,7 @@
                                     <td>{{$items->id}}</td>
                                     <td>{{$items->fname}}</td>
                                     <td>{{$items->lname}}</td>
-                                    <td>{{$items->mname}}</td>
+                                    <td>{{$items->midname}}</td>
                                     <td>{{$items->age}}</td>
                                     <td>{{$items->address}}</td>
                                     <td>{{$items->zip}}</td>
