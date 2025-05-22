@@ -21,7 +21,7 @@ class employeecontroller extends Controller
     }
 
 
-    public function create(Request $request)
+    public function store(Request $request)
     {
     $request->validate([
         'fname' => 'required|max:255|string',
