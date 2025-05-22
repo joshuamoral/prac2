@@ -24,14 +24,14 @@ class employeecontroller extends Controller
 
     public function store(Request $request)
     {
+
         $request->validate([
             'fname' => 'required|max:255|string',
             'lname' => 'required|max:255|string',
-            'midname' => 'required|max:255|string',
+            'midname' => 'required|max:255|string', //<!--integer to string -->
             'age' => 'required|integer',
             'address' => 'required|max:255|string',
             'zip' => 'required|integer',
-
         ]);
 
 
