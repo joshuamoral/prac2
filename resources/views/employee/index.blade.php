@@ -16,7 +16,7 @@
     <!-- Main content -->
     <div class="content">
         <div class="container-fluid">
-        <a href="{{ route('employee.update') }}" class="btn btn-info">Add New Employee</a>
+        <a href="{{ route('employee.create') }}" class="btn btn-info">Add New Employee</a> <!--anotehr update to create-->
         <div class="row">
 
 
@@ -56,7 +56,7 @@
                                     <td>{{$items->address}}</td>
                                     <td>{{$items->zip}}</td>
                                 <td>
-                                    <span class="badge bg-success"><a href="{{  route('employee.update',$items->id)}}" class="btn btn-success mx-3  "><h5>Edit</h5></a></span>
+                                    <span class="badge bg-success"><a href="{{  route('employee.edit',$items->id)}}" class="btn btn-success mx-3  "><h5>Edit</h5></a></span>
                                 </td>
                                 <td>
 
