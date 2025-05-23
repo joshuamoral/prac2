@@ -13,7 +13,7 @@ class employeecontroller extends Controller
     {
         $employees = employee::get();
 
-        return view('employee.index', compact('employees'));
+        return view('employee.index', compact('employees')); // Pass the employees data to the view
     }
 
     public function create()
